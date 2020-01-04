@@ -1,0 +1,137 @@
+
+.bground {
+  background-image: url("../images/gamebackground.jpg");
+  background-size:100%;
+}
+
+.header {
+font-size: 70px;
+text-align: center;
+}
+
+.header2 {
+font-size: 50px;
+text-align: center;
+}
+
+.button {
+    background-color: #f2dfdf; /* some weird cream */
+    border: black;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 8em;
+    height: 2em;
+}
+
+.div-button
+{
+margin: 40px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+.column {
+  float: left;
+  padding-bottom : 45px;
+}
+
+/* Left and right column */
+.column.left {
+  width: 40%;
+}
+
+/* Middle column */
+.column.right {
+  width: 55%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+}
+
+/* Style the list inside the menu */
+ ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer {
+ text-align: center;
+ font-size: 50px;
+ color: black;
+}
+
+/*---------------------- stuff for rendered home.ftl ----------- */4
+
+
+
+.nav {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border: 1px solid black;
+}
+
+.nav_element {
+  float: left;
+  border-right:100px solid transparent;
+  font-size: 20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+/* ---------------------  stuff for signin.ftl  ----------------- */
+
+#center_align {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  z-index: 15;
+  top: 22%;
+  left: 35%;
+  background: white;
+  padding: 40px;
+  border: 3px solid #f2dfdf;
+}
+
+.signin {
+   font-size: 35px;
+}
+
+.dialogbox {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+
+/* ---------- GENERAL --------------*/
+.linkButton {
+  background: none;
+  border: none;
+  color: #0066ff;
+  text-decoration: underline;
+  cursor: pointer;
+  display: block;
+}
